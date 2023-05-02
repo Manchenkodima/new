@@ -1,0 +1,104 @@
+body{
+    background: rgb(153, 129, 153);
+}
+h1, h2, p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(142, 79, 79);
+}
+
+h1 {
+    border-bottom: 2px solid rgb(133, 83, 83);
+}
+p{
+    font-family: sans-serif;
+    color: rgb(202, 198, 202);
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+em{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: chartreuse;
+}
+p.new-class, h1.new-class {
+    font-size: 50px;
+    color:blue;
+    
+}
+h2.green-class{
+    font-size: 25px;
+    color: green;
+}
+em.qqq-class{
+    color: black;
+}
+body{
+    color: greenyellow;
+}
+#elexirs{
+    border-width: thin;
+    border-style: solid;
+    border-color: aquamarine;
+    width: 200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    text-align: center;
+    background-color: rgb(73, 107, 77);
+    background-image: url(/Users/dmitrijmancenko/Documents/lesson/cocktail.gif);
+    background-repeat: repeat-x;
+    float: right;
+    
+}
+#elexirs h2, h3{
+    color:black;
+}
+#elexirs{
+    line-height: 1em;
+}
+.footer{
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+    clear: left;
+}
+.cd{
+    font-style: italic;
+}
+.artist{
+    font-weight: bold;
+}
+#disk{
+    height: 130px;
+    width: 130px;
+}
+.disk{
+    margin-left: 20px;
+    padding: 20px;
+    width: 500px;
+}
+a:link{
+    color:green;
+    text-decoration: none;
+}
+a:visited{
+    color:red;
+    text-decoration: none;
+}
+a:hover{
+    color:yellow;
+}
+#red{
+    width: 500px;
+}
+
+.disk2{
+    margin-left: 20px;
+    padding: 20px;
+    width: 500px;
+    float: left;
+    margin: 0px 10px 10px 10px;
+
+}
