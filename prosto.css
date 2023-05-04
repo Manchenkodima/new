@@ -75,9 +75,12 @@ body{
     width: 130px;
 }
 .disk{
-    margin-left: 20px;
-    padding: 20px;
-    width: 500px;
+    background:rgb(153, 129, 153);
+    font-size: 105%;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    display: table-row;
+
 }
 a:link{
     color:green;
@@ -100,5 +103,10 @@ a:hover{
     width: 500px;
     float: left;
     margin: 0px 10px 10px 10px;
-
+    display: table-cell;
+    vertical-align: top;
+}
+div#container{
+    display: table;
+    border-spacing: 10px;
 }
