@@ -1,0 +1,12 @@
+img {
+    width: 150px;
+}
+
+.red {
+    background-color: #00b582;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 10px solid blueviolet;
+    padding: 50px 10px 50px 50px;
+    font-family: sans-serif;
+}
