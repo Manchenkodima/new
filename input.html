@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT</title>
+</head>
+
+<body>
+    <form action="http://starbuzzcoffee.com/processorder.php" method="get">
+        <p>Выберите кофе:
+            <select name="beans">
+                <option value="Смесь">Домашняя Смесь</option>
+                <option value="Боливия">Боливия</option>
+                <option value="Гватемала">Гватемала</option>
+                <option value="Кения">Кения</option>
+            </select>
+        </p>
+        <p>Тип: <br>
+        <input type="radio" name="bentype" checked="checked" value="зерна">Кофе в зернах <br>
+        <input type="radio" name="bentype" value="Молотый">Молотый кофе
+        </p>
+        <p>Количество пакетиков:
+            <input type="number" name="bags" min="1" max="20">
+        </p>
+        <p>Доставить в указанный адрес:
+            <input type="date" name="date">
+        </p>
+        <p>Дополнительные услуги <br>
+        <input type="checkbox" name="extras[]" value="Подарочная упаковка">подарочная упаковка <br>
+        <input type="checkbox" name="extras[]" value="Каталог" checked="checked">Доставка каталога вместе с заказом
+        </p>
+        <p>Доставим по адресу:<br>
+            ИМЯ:<input type="text" name="Имя"><br>
+            АДРЕС<input type="text" name="Адрес"><br>
+            ГОРОД<input type="text" name="Город"><br>
+            СТРАНА<input type="text" name="Страна"><br>
+            ПОЧТОВЫЙ ИНДЕКС<input type="text" name="Почтовый индекс"><br>
+            НОМЕР ТЕЛЕФОНА<input type="tel" name="Номер телефона"><br>
+        </p>
+        <p>Комментарии клиентов
+            <textarea name="comments"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Заказать сейчас">
+        </p>
+
+    </form>
+</body>
+
+</html>

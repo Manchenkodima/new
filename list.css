@@ -19,3 +19,46 @@ nav ul li a:link, nav ul li a:visited{
 nav ul li.selected{
     background-color: #c8bb;
 }
+td, th{
+    border: thin dotted grey;
+    padding: 5px;
+}
+table{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    border: thin solid black;
+    caption-side: bottom;
+    border-collapse: collapse;
+    border-spacing: 10px 30px;
+}
+caption{
+    padding-top: 8px;
+    font-style: italic;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+th{
+    background-color: #cc6600;
+}
+.collector{
+    background-color: #fcba7a;
+}
+table table th{
+    background-color: white;
+}
+.one{
+    background-color:aqua;
+}
+.two{
+    background-color: pink;
+}
+li{
+    list-style-image: url(/Users/dmitrijmancenko/Documents/lesson/chai.gif);
+    padding-top: 5px;
+    padding-left: 20px;
+}
